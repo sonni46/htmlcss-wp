@@ -32,17 +32,18 @@
     text-decoration:none;
     color: lightgray;
 }
-/* banner  */
-main{
-    margin-top: 50px;
 
+/* banner  */
+
+main {
+    margin-top: 50px;
 }
+
 .int-banner {
     /* background-color: burlywood; */
     height: 500px;
     margin: auto 10% ;
     position: relative;
-    
 }
 
 .overlay {
@@ -52,7 +53,6 @@ main{
     background-color:rgba(0, 0, 0, 0.267);
     inset:0;
     border-radius: 20px; 
-    
 }
 
 .int-banner img {
@@ -71,20 +71,21 @@ main{
     padding-bottom: 5%;
     color: white;
 }
-/* banner  */
+
+/* fine banner  */
+
+/* container  */
 
 .container {
     /* background-color: blue; */
-    
-    margin: 0 10%;
-    
+    margin: 0 10%; 
 }
 
 .container img {
     height: 250px;
 }
 
-.conteiner-img{
+.cont-img{
     position: relative;
     width: 100%; 
 }
@@ -139,11 +140,6 @@ main{
     clear: both;
 }
 
-.footer{
-    /* background-color: rgb(122, 0, 153); */
-    height: 100px;
-    margin: 2%;
-}
 
 .left h4,
 .center h4,
@@ -151,9 +147,18 @@ main{
     margin: 20px 0 ;
 }
 
+/*fine container  */
+
+/* footer  */
+
 .footer {
+    /* background-color: rgb(122, 0, 153); */
+    height: 100px;
+    margin: 2%;
     text-align: center;
 }
 .hearts {
     color: red;
 }
+
+/* fine footer  */
